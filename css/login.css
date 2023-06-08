@@ -1,0 +1,97 @@
+#log_in {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+#log_in h2 {
+    padding : 50px; 
+}
+
+.login_box {
+    border: 2px #666 solid;
+    border-radius: 3px;
+    width: 360px;
+}
+
+.iogin_input_box{
+    border-bottom: 1px #666 solid;
+    padding :15px 25px;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.iogin_input_box>*{
+    margin : 2px 0;
+}
+
+.iogin_input_box #input_id {
+    width: 100%;
+}
+
+.iogin_input_box #input_pw {
+    width: 100%;
+}
+
+
+#log_in_button {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#log_in_button>div {
+    display: flex;
+    align-items: center;
+}
+
+#log_in_button>div>input {
+    margin-right: 5px;
+}
+
+#log_in_button>#login_submit {
+    padding : 5px 30px;
+    background: #333;
+    color : white;
+    border-radius: 3px;
+}
+
+.sign_up {
+    width: 100%;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    padding : 10px;
+}
+
+.sign_up div {
+    font-size: 0.8em;
+    color:#666;
+    padding : 0 5px;
+}
+
+.sign_up div a {
+    color:#666;
+    text-decoration: none;
+}
+
+.sign_up div:first-child {
+    width: 40%;
+    text-align: right;
+    border-right : 1px solid #aaa
+}
+.sign_up div:last-child {
+    width: 60%;
+}
+
+.sns_login {    
+    width: 100%;
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding : 10px;
+}
